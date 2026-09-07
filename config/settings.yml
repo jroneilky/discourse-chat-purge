@@ -1,0 +1,28 @@
+plugins:
+  content_purge_enabled:
+    default: true
+    client: false
+
+  # --- Chat messages: fast timeline ---
+  content_purge_chat_messages_after_minutes:
+    default: 5
+    min: 1
+    max: 10080
+  content_purge_chat_messages_batch_size:
+    default: 500
+    min: 10
+    max: 5000
+
+  # --- Posts (incl. personal messages): slow timeline ---
+  content_purge_posts_after_hours:
+    default: 24
+    min: 1
+    max: 8760
+  content_purge_posts_batch_size:
+    default: 200
+    min: 10
+    max: 2000
+  content_purge_posts_in_private_messages:
+    default: true
+  content_purge_posts_in_deleted_topics:
+    default: false
