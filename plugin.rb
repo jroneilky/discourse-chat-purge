@@ -2,7 +2,7 @@
 
 # name: discourse-content-purge
 # about: Permanently deletes soft-deleted chat messages after a few minutes, and soft-deleted posts (including personal messages) after 24 hours, without ever cascading into a topic's replies.
-# version: 1.1
+# version: 1.2
 # authors: Admin
 # required_version: 2.7.0
 
