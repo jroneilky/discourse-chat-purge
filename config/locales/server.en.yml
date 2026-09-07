@@ -1,0 +1,9 @@
+en:
+  site_settings:
+    content_purge_enabled: "Master switch for automatic permanent deletion of soft-deleted content."
+    content_purge_chat_messages_after_minutes: "Permanently delete a soft-deleted CHAT message this many minutes after deletion. Applies to all chat channels, including chat direct messages."
+    content_purge_chat_messages_batch_size: "Maximum chat messages permanently deleted per run (job runs every minute)."
+    content_purge_posts_after_hours: "Permanently delete a soft-deleted POST this many hours after deletion. Personal messages use this setting, not the chat one."
+    content_purge_posts_batch_size: "Maximum posts permanently deleted per run (job runs every 15 minutes)."
+    content_purge_posts_in_private_messages: "Also permanently delete soft-deleted posts inside personal messages, on the post timeline above."
+    content_purge_posts_in_deleted_topics: "When an entire topic has been deleted, permanently delete it along with all of its replies. Leave off to guarantee replies are never removed."
